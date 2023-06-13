@@ -120,11 +120,11 @@ h2 {
     }
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     header{
         width: 1200px;
     }
-}   */
+}  
 /* Estilo para el pie de página */
 footer {
     text-align: center;
@@ -193,7 +193,7 @@ footer {
     height: auto;
     object-fit: cover;
     border: #2230f1 solid 3px;
-    border-radius: 140px;s
+    border-radius: 140px;
   }
   
   .product-gallery figcaption {
@@ -224,9 +224,16 @@ footer {
       flex-basis: calc(50% - 10px);
     }
   }
-  /* Estilos responsive */
+  /* Estilos responsive*/
 @media screen and (max-width: 768px) {
     header {
       padding: 10px;
-    }
-  
+    } 
+    @media screen and (max-width: 768px) {
+        /* Estilos para pantallas de hasta 768px de ancho */
+      }
+      
+      @media screen and (max-width: 576px) {
+        /* Estilos para pantallas de hasta 576px de ancho */
+      }
+      

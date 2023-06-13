@@ -18,3 +18,4 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     // Puedes agregar tu código aquí para procesar el envío del formulario
   });
   
+  
