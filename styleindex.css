@@ -1,0 +1,123 @@
+body{
+  background-color: #afd0f1  ;
+}
+  /* Estilos personalizados para el header y el nav */
+  header {
+    background-color: #208bf5;
+    padding: 10px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand {
+    margin-right: 20px;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin-left: 10px;
+  }
+  
+  .navbar.navbar-light.bg-light {
+    background-color: #afd0f1 !important;
+  }
+  
+  .navbar-brand img {
+    margin-left: 20px;
+    width: 160px;
+    height: 160px;
+  }
+
+  /*estilos para el texto del nav*/
+  .navbar-nav .nav-link{
+    color: #060ae0 !important;
+    transition: color 0.3s;
+  }
+  
+   /* Estilos para el hover del texto del nav */
+   .navbar-nav .nav-link:hover {
+    color: #97acf1 !important;
+  }
+
+  /* Estilos personalizados para el contenido principal */
+  main {
+    padding: 20px;
+  }
+  /* Estilos personalizados para el contenido principal */
+
+  .background-image {
+    background-image: url(assets/foto-body.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Ajusta la altura de la sección de fondo según tus necesidades */
+    position: relative;
+    margin: 20px;
+  }
+ 
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #09090c; /* Ajusta el color del texto según tus preferencias */
+  }
+  
+  .gradient-paragraph {
+    background: linear-gradient(to right, #77b7c2, #3e1aa0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+  .overlay p {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+}
+.card img{
+  height: 170px;
+  width: 170px;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #208bf5;
+  border-color: #208bf5;
+}
+
+.btn-primary:hover {
+  background-color: #1565c0;
+  border-color: #1565c0;
+}
+  
+  
+  /* Estilos personalizados para el footer */
+  footer {
+    background-color: #02172c;
+    padding: 20px;
+    text-align: center;
+  }
+
